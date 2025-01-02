@@ -1,0 +1,76 @@
+/* General Styles */
+
+/* Bold Input Widget Labels */
+.css-16huue1 > label {
+    font-weight: bold;
+    font-size: 16px; /* Adjust size as needed */
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('HD-wallpaper-mercedes-amg-gt-r-front-view-2018-cars-supercars-mercedes.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center; /* Center the background image */
+    /* background-color: #f9f9f9; */
+}
+
+/* Header Styling */
+.header {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.header span.orange {
+    color: orange;
+}
+
+.header span.subtitle {
+    font-size: 20px;
+    color: #555;
+}
+
+/* Tabs Styling */
+.stTabs [role="tablist"] button {
+    background-color: #f8f9fa;
+    color: #6c757d;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+.stTabs [role="tablist"] button:hover {
+    background-color: #9370DB;
+    color: white;
+}
+
+.stTabs [role="tablist"] button[data-selected="true"] {
+    background-color: #8A2BE2;
+    color: white;
+}
+
+/* Prediction Button Styling */
+.stButton>button {
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white; /* Text color in white */
+    background: linear-gradient(to right, #8A2BE2, #9370DB, #BA55D3); /* Gradient background */
+    border: none;
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease; /* Smooth hover effect */
+}
+
+.stButton>button:hover {
+    background: linear-gradient(to right, #BA55D3, #9370DB, #8A2BE2); /* Reversed gradient on hover */
+}
+
