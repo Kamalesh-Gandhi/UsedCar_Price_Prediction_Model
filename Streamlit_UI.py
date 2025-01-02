@@ -18,7 +18,7 @@ model = joblib.load('xgboost_best_model.pkl')
 encoders = joblib.load('categorical_encoders.pkl')  
 
 # Load dataset from CSV to extract unique values for dropdown options
-df_cars = pd.read_csv(r'DataSets\New_Structured_Data\Temp_preprocessed_data.csv')
+df_cars = pd.read_csv(r'DataSets\Temp_preprocessed_data.csv')
 
 # Load CSS file
 def load_css(file_name):
